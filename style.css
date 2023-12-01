@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(201, 171, 64);
+}
+
+.palavra{
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    height: 70px;
+    width: 200px;
+}
+
+main{
+    display: block;
+}
+ 
+section{
+    margin-top: 30px;
+}
+ 
+.div_coluna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+ 
+.frase_dialogo{
+    padding: 20px;
+}
+ 
+.caixa_dialogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: lightgray;
+    height: 500px;
+    width: 950px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+}
+
+.caixa_dialogo2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: lightgray;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+ 
+.sec_class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.frase{
+    height: 30px;
+    width: 390px;
+    background-color: rgb(134, 117, 117);
+    border-radius: 8px;
+}
+
+h2:hover{
+    transition: 100ms;
+    transform: scale(1.03);
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(169, 169, 169);
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    height: 400px;
+    width: 800px;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.textoModal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 28px;
+}
+
+.frasestext{
+    font-size: 20px;
+}
+
+.fechar-modal {
+    cursor: pointer;
+}
